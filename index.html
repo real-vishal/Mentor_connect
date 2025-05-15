@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mentor Connect</title>
+    <link rel="stylesheet" href="commoncss.css">
+    <link rel="stylesheet" href="home-index.css">
+    
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">    <!--FONT FAMILIES used in CHATBOT font-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">     <!--CHATBOT ICON link-->
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">    
+
+</head>
+<body>
+    
+    <header>
+    <div class="navbar">
+        <img src="asset/mainlogo.png" alt="Mainlogo" class="img-323">
+        <div class="nav-div">
+            <p class="p-nav833">Intro</p>
+            <p class="p-nav833">Services</p>
+            <p class="p-nav833">Login</p>
+            <p class="p-nav833">Help</p>
+        </div>
+    </div>
+    </header>
+    <main>
+        <div class="bigboss">
+            <div class="child-bigboss">
+                <div class="chat-mainbox">
+                    <div class="main-welcome">
+                            <h2 class="heading-001">Welcome to <br>Mentor Connect</h2>
+                            <p class='heading-002'>Say 'Hii' to ZenBot.</p>
+                    </div>
+
+                    <div class="chatbox">
+
+                        <div class="chat-header">       
+                            <h2 class="chat-bot-logo-name"> Zenbot  </h2>
+                            <i class="fa-solid fa-robot"></i>     <!---CHATBOT Icon-->
+                        </div>
+                            <!--WHITE posture of chatbot-->
+                        <div class="chat-body" id="chat-body">      
+                            <!-- Chat messages will appear here  -->
+                        </div>
+
+                        <div class="chat-footer">
+                            <input type="text" id="userInput" placeholder="Type  '/help' " />
+                            <button class="send_button" onclick="sendMessage()">Send &#8593;</button>
+                        </div><!--chat-footer-->
+                    </div><!--chat-box-->
+                </div> <!---chat-mainbox--->
+            </div><!---child-bigboss-->
+
+            <!--///////////////////////////////////GO TO SCHEDULATION/////////////////////////////////-->
+            <!--///////////////////////////////////GO TO SCHEDULATION/////////////////////////////////-->
+                <div class="child-bigboss2">
+                    <div class="mainbox-2">
+                        <h3 class="heading-001">Hurry! And <br>choose your slots for<br>appointment.</h3>
+                        
+                            <p class="heading-002">Select a time that works for you and <br>click the button to confirm your booking.</p>
+                        
+                    </div>
+                        
+                        
+                        <button class='button-gotocalendly' onclick="window.open('calendly.html','_blank');">Go to Schedule</button>
+                        
+                </div><!--child-bigboss2--->
+        </div> <!--biggboss--->  
+    </main>
+   <footer>
+            <div class="footer-pages">
+                        <span class="footer-pages-span">Search also:<br></span>
+                        <a href="" class="footer-terms-links">Home</a>
+                        <a href="" class="footer-terms-links">Data Science</a>
+                        <a href="" class="footer-terms-links">Cloud Computing</a>
+                        <a href="" class="footer-terms-links">Machine Learning</a>
+                        <a href="" class="footer-terms-links">Cybersecurity</a>
+                        <a href="" class="footer-terms-links">Arificial intelligence</a>
+                        <a href="" class="footer-terms-links">Blockchain</a>
+                        <a href="" class="footer-terms-links">Web Development</a>
+            </div>
+            <div class="footer-terms">
+                <a href="" class="footer-terms-links">About Us</a>
+                <a href="" class="footer-terms-links">Terms & Services</a>
+                <a href="" class="footer-terms-links">Privacy Policy</a>
+            </div>
+            <div class="footer-icons">
+
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook " style="color: #a3f4ff;" ></i></a>
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram " style="color: #a3f4ff;"></i></a>
+                <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin " style="color: #a3f4ff;"></i></a>
+            </div>        
+    
+   </footer>
+
+<!--JAVASCRIPT -->
+<script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,313 @@
+
+/***************FONTS*/
+
+main{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+    background-color: #f4f4f4;
+    height: 100%;
+  }
+  input,button,.chat-body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+/********************************************/
+
+/*********************CHATBOX properties**/
+
+.chat-mainbox{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    width:100%;
+    height:100%;
+}
+.chatbox {
+    margin-right:17px;
+    width: 130vh;
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    overflow: hidden;
+    align-items:center;
+    justify-content:space-between;
+    margin-bottom:15px;
+}
+
+.chat-header {
+    
+    background: rgb(0,98,172);
+    color: rgb(0, 225, 255);
+    font-size:20px;
+    text-align: center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:13px;
+}
+/*****ICON properties**/
+.chat-header i {
+    font-size:22px;
+}
+
+.chat-body {
+    font-size: 15.2px;
+    height: 60vh;
+    overflow-y: auto;    /***Scrollable Chat Box during a long chat.***/
+    padding:10px;
+    background-color: #f9f9f9;
+}
+
+.chat-footer {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #ebebeb;/*#eee*/
+    border-radius: 8px;
+}
+
+#userInput {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.send_button {
+    padding: 10px;
+    margin-right: 10px; 
+    background:  rgb(0,98,172);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.send_button:hover {
+    background: #40bc48;
+}
+
+ /*CALENDLY KA BACKGROUND*/
+.calendly-big{
+    background-color: aqua;
+    height: 500px;
+    width:400px;
+}
+
+/**********Another elements*************/
+.bigboss{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.child-bigboss{
+    width:100%;
+    height:100%;
+    background-image:linear-gradient(to bottom right,rgb(35, 35, 35),rgba(0, 0, 0, 0)),
+                     url('asset/18043.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.main-welcome{
+    display: flex;
+    flex-direction:column ;
+    justify-content:center;
+}
+.heading-001{
+    font-size:41px;
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 50px;
+    color:rgb(174, 220, 255);
+}
+.heading-002{
+    font-family: "Kanit", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 25px;
+        word-spacing: 0.4px;
+        color:rgb(0, 0, 0);
+    }
+
+/*+++++++++++++++++++++++++++++++CHATBOX STYLE START+++++++++++++++++++++++++++++++++++++++++*/
+
+.chat-bot-logo-name/*CHATBOT logo*/{
+    font-family: "Bungee Inline", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+/**********DATA SET styling*********/
+code{
+    background-color: rgb(205, 205, 205);
+}
+
+
+.message {
+    margin: 10px 0;
+}
+
+.user-message {
+    text-align: right;
+}
+
+.bot-message {
+    text-align: left;
+    color: blue;
+}
+
+/*Table of /mentors*/
+table{
+    width:100%;
+}
+table,th,td{
+    color: black;
+    border:1px solid black;
+    border-collapse: collapse;
+}
+th{
+    font-weight: 700;
+    text-align: center;
+    width:auto;
+    padding:4.5px 4.5px 4.5px 4.5px ;
+}
+td{
+    color: black;
+    font-weight: 460;
+    font-size: 15px;
+    padding:4px 4px 4px 4px;
+    text-align: left;
+    width:auto;
+    border:1px solid black;
+    border-collapse: collapse;
+}
+
+a{
+    cursor:pointer;
+    text-decoration: none;
+    text-decoration-line:underline;
+}
+abbr{
+    text-decoration: none;
+}
+
+
+.explore-link-formatting{
+    color:rgb(0,98,172);
+    text-decoration: none;
+}
+.explore-link-formatting:hover{
+    text-decoration: underline;
+}
+
+/*************rbsingh CONTACT LOGOS********************/
+.p-whatsapp-logo, .p-email-logo , .p-phone-logo, .p-linkedin-logo{
+    display:flex;
+    align-items:center;
+}
+/*********Whatsapp Logo and Link**************/
+.p-whatsapp-logo::before{
+    width:20px;
+    height:-1.6px;
+    content:url(asset/whatsapp-brands-solid.svg);
+    margin-right:7px;
+}
+.p-whatsapp-link:hover{
+    color:#25D366;
+}
+/*********Email Logo and Link**************/
+.p-email-logo::before{
+    width:20px;
+    height:-1.6px;
+    content:url(asset/envelope-regular.svg);
+    margin-right:7px;
+}
+.p-gmail-link:hover{
+    color:rgb(222, 0, 0);
+}
+/*********Phone Logo and Link**************/
+.p-phone-logo::before{
+    width:20px;
+    height:-1.6px;
+    content:url(asset/phone-solid.svg);
+    margin-right:7px;
+}
+
+.p-phone-link:hover{
+    color:#549d00;
+    text-decoration: underline 2px solid #549d00;
+    cursor:copy;
+}
+/*********Linkedin Logo and Link**************/
+.p-linkedin-logo::before{
+    width:20px;
+    height:-1.6px;
+    content:url(asset/linkedin-brands-solid.svg);
+    margin-right:7px;
+}
+.p-linkedin-link:hover{
+    color:#0077B5;
+}
+
+/**************************CHAT-BOX END******************************************/
+
+.child-bigboss2{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-around;
+    width:100%;
+    height:600px;
+    background-image:linear-gradient(to bottom right,rgb(37, 37, 37),rgba(0, 0, 0, 0)),
+                     url('asset/18044.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.mainbox-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap:10vh;
+}
+
+.button-gotocalendly{
+    
+    color:rgb(0, 81, 144);
+    height: 110px;
+    width: 250px;
+    background-color:rgb(154, 211, 255);
+    border-radius: 15px;
+    letter-spacing:0.59px;
+    font-size:17px;
+    font-weight:555;
+    transition-duration: 0.573s;
+}
+.button-gotocalendly:hover{
+    height: 120px;
+    width: 265px;
+    color:rgb(0, 40, 113);
+    background-color:rgb(0, 209, 237);
+    
+    font-weight:800;    
+    letter-spacing:1.9px;
+}
+
+
